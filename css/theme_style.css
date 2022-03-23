@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.btn:focus, button:focus{
+    outline: none!important;
+    box-shadow: none!important;
+}
+.fixed{
+    position: fixed!important;
+    top:0; left:0;
+    width: 100%;
+    background: #FFF;
+    z-index: 1000;
+}
+
+.header_two{
+    padding: 15px 200px!important;
+    background-color: #FFFFFF;
+}
+.main_header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/pexels-photo-4110882.jpeg');
+    background-position: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header_two ul li a{
+    font-size: 23px;
+    font-weight: 600!important;
+    color: #000000!important;
+    letter-spacing: 1.15px;
+    margin-left: 36px;
+}
+.cart_nav img{
+    width: 27px;
+    height: 30px;
+}
+.big_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.big_text h1{
+    font-size: 120px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align:center;
+}
+.big_text p{
+    font-size: 35px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1.75px;
+}
+.big_text .btn{
+    color: #000000;
+    background: #FFFFFF;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 14px 59px;
+    font-size: 20px;
+}
+
+/*--------------------------------- header end --------------------------------------------*/
+.section_text{
+    font-size: 40px;
+    letter-spacing: -0.8px;
+    color: #000000;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    /* font: normal normal medium 20px/29px Jost; */
+}
+.second_section_row, .third_section_row, .footer_main{
+    padding: 0 200px;
+}
+
+.second_section_row_inner{
+    height: 1084px;
+    width: 100%;
+    overflow: hidden;
+}
+.second_section_row_inner img{
+    width: 100%;
+    height: 100%;
+}
+
+/*----------------------- Second Section End -------------------------------------*/
+
+.third_section_text{
+    font-size: 26px;
+    color: #000000;
+    letter-spacing: 1.95px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font: normal normal medium 20px/29px Jost;
+}
+
+.coool{
+width: 523px;
+height: 664px;
+overflow: hidden;
+}
+.coool img{
+    height: 100%;
+}
+.desk-home-owl2-car .owl-nav{
+    display: none;
+}
+.desk-home-owl2-car .owl-dots{
+    display: none;
+}
+.third_section_btn_div{
+    text-align: center;
+    margin-top: 3rem;
+}
+.third_section_btn{
+    color:#000000!important;
+    border:  1px solid #707070!important;
+    border-radius: 0!important;
+    font-size: 20px!important;
+    padding: 10.5px 114.5px!important;
+}
+/*-------------------- Third Section End -------------------------------*/
+
+.footer_main{
+    background: #FAFAFA;
+    margin-top: 108px;
+    padding-top: 78px;
+}
+.footer_child a{
+    text-decoration: none;
+}
+.footer_child .footer_title{
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0px;
+    text-align:center
+}
+.footer_child a p{
+    font-size: 21px;
+    color: #000000;
+    letter-spacing: 0px;
+    text-align:center
+}
+.footer_child a:hover{
+    text-decoration: none;
+}
+.footer_logo{
+    text-align: center;
+}
+.footer_logo img{
+    width: 12rem;
+}
+
+@media only screen and (max-width: 1920px) {
+    .header_two{
+        padding: 6px 140px!important;
+    }
+    .header_two ul li a{
+        font-size: 18px;
+        margin-left: 28px;
+    }
+    .cart_nav img{
+        width: 20px;
+        height: 22px;
+    }
+    .big_text h1{
+        font-size: 100px;
+    }
+    .big_text p{
+        font-size: 27px;
+        letter-spacing: 1.35px;
+    }
+    .big_text .btn{
+        padding: 14px 60.5px;
+
+    }
+    /*--------------------------------- header end --------------------------------------------*/
+.section_text{
+    font-size: 30px;
+    letter-spacing: 0px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.second_section_row, .third_section_row, .footer_main{
+    padding: 0 140px;
+}
+.second_section_row_inner{
+    height: 816px;
+}
+
+
+/*----------------------- Second Section End -------------------------------------*/
+
+.third_section_text{
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+   
+}
+.coool{
+    width: 394px;
+    height: 500px;
+    }
+/*-------------------- Third Section End -------------------------------*/
+
+.footer_main{
+    background: #FAFAFA;
+    margin-top: 160px;
+    padding-top: 78px;
+}
+.footer_child .footer_title{
+    font-size: 18px;
+}
+.footer_child a p{
+    font-size: 16px;
+}
+}
+
+@media only screen and (max-width: 1440px) {
+    .header_two{
+        padding: 6px 100px!important;
+    }
+    .header_two ul li a{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .cart_nav img{
+        width: 18px;
+        height: 20px;
+    }
+  /*--------------------------------- header end --------------------------------------------*/
+.section_text{
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+.second_section_row, .third_section_row, .footer_main{
+    padding: 0 100px;
+}
+.second_section_row_inner{
+    height: 600px;
+}
+/*----------------------- Second Section End -------------------------------------*/
+
+.third_section_text{
+    font-size: 16px;
+    margin-top: 70px;
+    margin-bottom: 35px;
+   
+}
+.coool{
+    width: 294px;
+    height: 300px;
+    }
+
+/*-------------------- Third Section End -------------------------------*/
+
+.footer_main{
+    margin-top: 120px;
+    padding-top: 55px;
+}
+.footer_child .footer_title{
+    font-size: 16px;
+}
+.footer_child a p{
+    font-size: 15px;
+}
+}
+
+
+@media only screen and (max-width: 1366px) {
+    .header_two{
+        padding: 6px 100px!important;
+    }
+    .header_two ul li a{
+        font-size: 14px;
+    }
+    .cart_nav img{
+        width: 14px;
+        height: 16px;
+    }
+    .big_text h1{
+        font-size: 70px;
+    }
+    .big_text p{
+        font-size: 20px;
+        letter-spacing: 1.15px;
+    }
+    .big_text .btn{
+        padding: 7px 25px;
+        font-size: 15px;
+
+    }
+    /*--------------------------------- header end --------------------------------------------*/
+.section_text{
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.second_section_row, .third_section_row, .footer_main{
+    padding: 0 100px;
+}
+.second_section_row_inner{
+    height: 500px;
+}
+/*----------------------- Second Section End -------------------------------------*/
+
+.third_section_text{
+    font-size: 15px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+   
+}
+.coool{
+    width: 278px;
+    height: 280px;
+    }
+/*-------------------- Third Section End -------------------------------*/
+
+.footer_main{
+    margin-top: 100px;
+    padding-top: 45px;
+}
+.footer_child .footer_title{
+    font-size: 15px;
+}
+.footer_child a p{
+    font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .main_header {
+        background-size: 100%;
+    }
+    .header_two {
+        padding: 6px 31px!important;
+    }
+    .header_two ul li a {
+        font-size: 13px;
+        margin-left: 0;
+    }
+    .home_cart{
+        position: fixed;
+        right: 25%;
+        top: -.4%;
+    }
+    .home_cart li img{
+        width: 16px;
+        height: 20px;
+    }
+
+    .big_text{
+        width: 100%;
+    }
+    .big_text h1 {
+        font-size: 50px;
+        letter-spacing: 0px;
+    }
+    .big_text p {
+        font-size: 16px;
+        letter-spacing: 0.8px;
+    }
+    .big_text .btn {
+        padding: 9.5px 39.5px;
+        font-size: 13px;
+    }
+    .section_text {
+        font-size: 16px;
+        letter-spacing: 0px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .second_section_row, .third_section_row, .footer_main {
+        padding: 0 20px;
+    }
+
+    .second_section_row_inner {
+        height: 304px;
+    }
+    
+    .coool {
+        width: 100%;
+        height: 345px;
+    }
+
+    .desk-home-owl2-car .owl-nav{
+        display: none;
+    }
+    .desk-home-owl2-car .owl-dots{
+        margin-top: 1.5rem;
+    }
+    .third_section_text {
+        font-size: 14px;
+    }
+    .footer_child .footer_title {
+        font-size: 18px;
+    }
+    .footer_child a p {
+        display: none;
+    }
+    .footer_main {
+        margin-top: 65px;
+        padding-top: 25px;
+    }
+    .third_section_btn{
+        color:#000000!important;
+        border:  1px solid #707070!important;
+        border-radius: 0!important;
+        font-size: 14px!important;
+        padding: 3.5px 64.5px!important;
+    }
+
+    .footer_logo img{
+        width: 9rem;
+        margin-bottom: 3rem;
+    }
+    
+}
